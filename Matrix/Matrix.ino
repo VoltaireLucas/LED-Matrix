@@ -11,7 +11,7 @@ void setup()
   for (int i{0}; i < 5; i++)
   {
     pinMode(COLUMNS[i], OUTPUT);
-    digitalWrite(COLUMNS[i], LOW);
+    digitalWrite(COLUMNS[i], HIGH);
   }
   clock1_574();
 
@@ -32,8 +32,16 @@ void loop()
     digitalWrite(DATA_164, HIGH);
   }
 
+  for (int j{0}; j < 3; j++)
+  {
+    digitalWrite(COLUMNS[j], LOW);
+    clock1_574();
+    delay(500);
+    
+    digitalWrite(COLUMNS[j], HIGH);
+    clock1_574();
+  }
   clock_164();
-  delay(500);
   i++;
 }
 
