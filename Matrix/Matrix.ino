@@ -1,58 +1,28 @@
 #include "Matrix.h"
 
+int X[3][3] = 
+{
+  {1,0,1},
+  {0,1,0},
+  {1,0,1}
+};
+
+Matrix matrix(3,3);
+
 void setup() 
 {
-  // Set up Row IC
-  pinMode(DATA_164, OUTPUT);
-  pinMode(CLK_164, OUTPUT);
+  matrix.SetUp();
 
-  // Set up Column IC
-  pinMode(CLK1_574, OUTPUT);
-  for (int i{0}; i < 5; i++)
-  {
-    pinMode(COLUMNS[i], OUTPUT);
-    digitalWrite(COLUMNS[i], HIGH);
-  }
-  clock1_574();
-
+  // All columns LOW
   for (int i{0}; i < 3; i++)
   {
-    digitalWrite(DATA_164, HIGH);
-    clock_164();
+    digitalWrite(COLUMNS[i], LOW);
   }
 }
 
-int i = 0;
 void loop() 
 {
-  if (i % 3 == 0)
-  {
-    digitalWrite(DATA_164, LOW);
-  } else {
-    digitalWrite(DATA_164, HIGH);
-  }
-
-  for (int j{0}; j < 3; j++)
-  {
-    digitalWrite(COLUMNS[j], LOW);
-    clock1_574();
-    delay(500);
-    
-    digitalWrite(COLUMNS[j], HIGH);
-    clock1_574();
-  }
-  clock_164();
-  i++;
+  matrix.test();
+  delay(5);
 }
 
-void clock_164()
-{
-  digitalWrite(CLK_164, HIGH);
-  digitalWrite(CLK_164, LOW);
-}
-
-void clock1_574()
-{
-  digitalWrite(CLK1_574, HIGH);
-  digitalWrite(CLK1_574, LOW);
-}

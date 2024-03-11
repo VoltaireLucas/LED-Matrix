@@ -2,7 +2,11 @@
 
 #include "Arduino.h"
 
-// Row IC Defines
+#define ON LOW
+#define OFF HIGH
+
+
+// Row IC 
 #define DATA_164 3
 #define CLK_164 A0
 
@@ -25,18 +29,22 @@ class Matrix
 public:
   Matrix(int rows, int columns);
 
+  // setup for all the pins.
+  void SetUp();
+
   // Clock the ROW IC. The IC's make is SN74HC164N 
   void clock_164();
   
   // the COLUMN ICs' make is SN74HC574N
   void clock1_574();
 
-  void displayRow(unsigned char* letter, int targetRow);
+  void displayNum(int num[][3]); // 3 is the number of columns.
+
+  void test();
+
 private:
-
-  int _rows;
-  int _columns;
-
+  int rows;
+  int columns;
 };
 
 
