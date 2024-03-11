@@ -40,7 +40,9 @@ public:
 
   void displayNum(int num[][3]); // 3 is the number of columns.
 
-  void test();
+  void test1();
+
+  void displayLetter(unsigned char* letter);
 
 private:
   int rows;

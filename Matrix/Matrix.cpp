@@ -64,7 +64,7 @@ void Matrix::displayNum(int num[][3])
 }
 
 
-void Matrix::test()
+void Matrix::test1()
 {
   static int targetRow{0};
 
@@ -78,9 +78,9 @@ void Matrix::test()
   {
     digitalWrite(DATA_164, LOW); // Corresponding Row is ON
 
-    digitalWrite(COLUMNS[0], LOW);
-    digitalWrite(COLUMNS[1], HIGH);
-    digitalWrite(COLUMNS[2], LOW);
+    digitalWrite(COLUMNS[0], HIGH);
+    digitalWrite(COLUMNS[1], LOW);
+    digitalWrite(COLUMNS[2], HIGH);
   } else
   {
     digitalWrite(DATA_164, HIGH); // Corresponding Row is OFF
@@ -92,7 +92,7 @@ void Matrix::test()
     } else if (targetRow % this->rows == 2)
     {
       digitalWrite(COLUMNS[0], LOW);
-      digitalWrite(COLUMNS[1], HIGH);
+      digitalWrite(COLUMNS[1], LOW);
       digitalWrite(COLUMNS[2], LOW);
     }
     
@@ -101,6 +101,35 @@ void Matrix::test()
   this->clock1_574();
 
   targetRow++;
+}
+
+void Matrix::displayLetter(unsigned char* letter)
+{
+  static int targetRow{0};
+
+  if (targetRow >= this->rows)
+  {
+    targetRow = 0;
+  }
+
+    // Push a zero (ON) to the IC every 3 (number of rows) cycles
+  if (targetRow % this->rows == 0)
+  {
+    digitalWrite(DATA_164, LOW); // Corresponding Row is ON
+  } else
+  {
+    digitalWrite(DATA_164, HIGH); // Corresponding Row is OFF
+  }
+  this->clock_164();
+
+  for (int i = 0; i < this->columns; ++i) 
+  {
+    int bit = (letter[targetRow] >> i) & 1; // Extract the bit at position i
+    digitalWrite(COLUMNS[i], !bit);
+  }
+  this->clock1_574();
+
+  targetRow++;  
 }
 
 void Matrix::clock_164()
