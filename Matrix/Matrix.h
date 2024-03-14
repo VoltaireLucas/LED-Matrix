@@ -2,10 +2,6 @@
 
 #include "Arduino.h"
 
-#define ON LOW
-#define OFF HIGH
-
-
 // Row IC 
 #define DATA_164 3
 #define CLK_164 A0
@@ -27,7 +23,7 @@ const int COLUMNS[5]
 class Matrix
 {
 public:
-  Matrix(int rows, int columns);
+  Matrix(int rows, int columns); 
 
   // setup for all the pins.
   void SetUp();
