@@ -5,915 +5,11 @@
 	(uuid "f4f73743-e943-40e7-b3a9-52df178c6ab8")
 	(paper "A3")
 	(lib_symbols
-		(symbol "74LS573_1"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "74HC164_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 7.112 -20.32 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC574"
-				(at 4.572 -20.32 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "74xx/74hc573.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-bit Latch 3-state outputs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL DFF DFF8 LATCH 3State"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?20*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS573_1_1_0"
-				(pin input inverted
-					(at -12.7 -12.7 0)
-					(length 5.08)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "Q7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "Q6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "Q5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "Q4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "Q3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Q2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "Q1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 12.7 180)
-					(length 5.08)
-					(name "Q0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 12.7 0)
-					(length 5.08)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 20.32 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS573_1_1_1"
-				(rectangle
-					(start -7.62 15.24)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "74LS573_2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at 7.112 -20.32 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74HC574"
-				(at 4.572 -20.32 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "74xx/74hc573.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "8-bit Latch 3-state outputs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TTL DFF DFF8 LATCH 3State"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP?20*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LS573_2_1_0"
-				(pin input inverted
-					(at -12.7 -12.7 0)
-					(length 5.08)
-					(name "~{OE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -20.32 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "Q7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "Q6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "Q5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "Q4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "Q3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "Q2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 10.16 180)
-					(length 5.08)
-					(name "Q1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 12.7 180)
-					(length 5.08)
-					(name "Q0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 12.7 0)
-					(length 5.08)
-					(name "D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 20.32 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74LS573_2_1_1"
-				(rectangle
-					(start -7.62 15.24)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "74xx:74HC164"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U5"
+			(property "Reference" "U6"
 				(at 2.1941 15.24 0)
 				(effects
 					(font
@@ -931,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 				(at 22.86 -7.62 0)
 				(effects
 					(font
@@ -941,7 +37,7 @@
 				)
 			)
 			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
-				(at 22.86 -7.62 0)
+				(at 23.114 -9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -976,10 +72,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "74HC164_0_1"
+			(symbol "74HC164_1_0_1"
 				(rectangle
-					(start 7.62 10.16)
-					(end -7.62 -12.7)
+					(start -7.62 10.16)
+					(end 7.62 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -989,7 +85,7 @@
 					)
 				)
 			)
-			(symbol "74HC164_1_1"
+			(symbol "74HC164_1_1_1"
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -1240,6 +336,458 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "74xx:74LS573"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 7.112 -20.066 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS573"
+				(at 4.572 -20.066 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "74xx/74hc573.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8-bit Latch 3-state outputs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL DFF DFF8 LATCH 3State"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?20*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LS573_1_0"
+				(pin input inverted
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "Q7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Q6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "Q5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "Q4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 20.32 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS573_1_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -11043,6 +10591,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ac22f79-038b-4842-9a5e-5e2a2ed82e98")
+		(property "Reference" "R5"
+			(at 38.1 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86d7d62e-250c-42d4-a9d6-93df8b76bf5d")
+		)
+		(pin "1"
+			(uuid "390ed79d-b3da-4f06-a4a2-00ac92cac169")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 355.6 73.66 90)
 		(mirror x)
@@ -11861,112 +11477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC164")
-		(at 368.3 165.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "253a1e6f-5988-4855-b4b1-49194d53a5e7")
-		(property "Reference" "U5"
-			(at 370.4941 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC164"
-			(at 370.4941 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
-			(at 391.16 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-bit serial-in parallel-out shift register"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c0d79c17-b4c7-4ae1-9377-a3abb3026800")
-		)
-		(pin "5"
-			(uuid "bd7203ff-28a1-4c40-b0ef-5e98f6e3cf97")
-		)
-		(pin "11"
-			(uuid "5fb6f580-2c82-4091-9575-c877ab8dc29b")
-		)
-		(pin "3"
-			(uuid "c787a104-ca24-4849-8367-9524d314ec5b")
-		)
-		(pin "12"
-			(uuid "63003aff-f667-4579-8a45-eb1c1efb9510")
-		)
-		(pin "7"
-			(uuid "3c803b20-4283-4335-bc8f-4050b093d9c7")
-		)
-		(pin "1"
-			(uuid "f8723781-daba-4ecc-9f8d-9fe234a1fe5d")
-		)
-		(pin "13"
-			(uuid "9e7c41fa-4308-4ddf-9e7a-66e0033fb889")
-		)
-		(pin "8"
-			(uuid "4d0519bc-6adb-4fa8-af35-cf123b154149")
-		)
-		(pin "10"
-			(uuid "791c7faa-12bc-4ea6-a420-48acb2591db0")
-		)
-		(pin "9"
-			(uuid "8d363729-78bf-474a-a873-0a3f85d8838a")
-		)
-		(pin "6"
-			(uuid "bd63110b-e0de-4061-81e0-22a7ce88f571")
-		)
-		(pin "2"
-			(uuid "1fed5cc6-db6f-4c80-bd23-8188b6cce152")
-		)
-		(pin "14"
-			(uuid "ed0875e3-1ad6-4c41-8d9c-4f1e1f774399")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 292.1 78.74 90)
 		(unit 1)
@@ -12111,42 +11621,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 127 90)
+		(lib_name "74HC164_1")
+		(lib_id "74xx:74HC164")
+		(at 368.3 165.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2739e73b-7e1c-4bb7-b8af-abde6d716094")
-		(property "Reference" "R7"
-			(at 38.1 120.65 90)
+		(uuid "27421007-1239-40e1-bec9-788c2707fb26")
+		(property "Reference" "U6"
+			(at 370.4941 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2.0k"
-			(at 38.1 123.19 90)
+		(property "Value" "74HC164"
+			(at 370.4941 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 38.354 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 127 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 391.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,8 +11658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 127 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf"
+			(at 391.414 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,16 +11667,61 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "a7aa366f-ab5a-44f0-8b5c-0ea23f3c7532")
+		(property "Description" "8-bit serial-in parallel-out shift register"
+			(at 368.3 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "6a083814-24b4-471b-8d8a-f5660df78578")
+			(uuid "9e38fa7e-fc7a-4e6a-a40d-2834f8d904b3")
+		)
+		(pin "4"
+			(uuid "eee8329b-e51c-443d-99ac-ca4bcd9ebb07")
+		)
+		(pin "5"
+			(uuid "e52de93f-11d7-4238-ae1a-3df8601de003")
+		)
+		(pin "8"
+			(uuid "b72818d2-7f77-4524-a027-ae0f90bc13c0")
+		)
+		(pin "9"
+			(uuid "c9b2697d-760f-4b83-9621-d7616158203f")
+		)
+		(pin "14"
+			(uuid "3ad936ea-6f1e-45ff-8a16-9001e569f72a")
+		)
+		(pin "13"
+			(uuid "61ab0f3a-6d5f-4375-bb56-67ce2b21b21e")
+		)
+		(pin "7"
+			(uuid "f0a1e901-2589-4c2b-b343-e4c1dd21b2ed")
+		)
+		(pin "6"
+			(uuid "80881492-7070-4fbb-ac84-ef5d0eac42ba")
+		)
+		(pin "3"
+			(uuid "79508914-40dd-4d41-bf4b-8c54fc7ed671")
+		)
+		(pin "12"
+			(uuid "2a4ebc4c-d4a7-4d33-b7a7-9a8c9d6f8b50")
+		)
+		(pin "1"
+			(uuid "04abfed7-0945-47ba-ba86-55e68db2bcbd")
+		)
+		(pin "10"
+			(uuid "750fcefd-2fdf-4d48-8e69-cc705010befa")
+		)
+		(pin "11"
+			(uuid "2dda9e6d-6672-4d49-bb9f-e8d76f02e121")
 		)
 		(instances
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -12533,6 +12082,127 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS573")
+		(at 87.63 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33ef5993-cd3d-4dab-84a7-fe950b485b7e")
+		(property "Reference" "U1"
+			(at 107.696 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS573"
+			(at 107.696 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "74xx/74hc573.pdf"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit Latch 3-state outputs"
+			(at 87.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "483175f1-a896-436a-802d-9fb5824a5706")
+		)
+		(pin "17"
+			(uuid "57c1c403-f0f5-4ffb-a0d0-874f4af81855")
+		)
+		(pin "11"
+			(uuid "a370b060-549e-421a-bc73-518d6d164a5f")
+		)
+		(pin "3"
+			(uuid "c4d24772-8ddc-46f3-9cca-ded517a31a82")
+		)
+		(pin "7"
+			(uuid "7b4509df-6657-4bef-8058-4c4a7305d5b8")
+		)
+		(pin "14"
+			(uuid "fbeaa916-4654-4c11-9bb0-f56e8fae0021")
+		)
+		(pin "5"
+			(uuid "9f772dc0-8bef-44c2-805a-a44d8bd30dac")
+		)
+		(pin "18"
+			(uuid "06b9aa9d-0a73-45fe-9321-46f07c51ca7a")
+		)
+		(pin "16"
+			(uuid "6b3c8ac1-3f87-41cb-8768-b78e38c5dde7")
+		)
+		(pin "20"
+			(uuid "3cfea3c5-3ae8-4aea-9499-1135974d5903")
+		)
+		(pin "2"
+			(uuid "9ef3611d-9943-46e5-89db-2671c7f9ee1d")
+		)
+		(pin "12"
+			(uuid "255b387f-8b49-4450-91ca-a31e5bd1fdf7")
+		)
+		(pin "9"
+			(uuid "61cb967e-408e-4134-9437-1e712c21acb6")
+		)
+		(pin "13"
+			(uuid "5cad7a0b-fdf0-4795-b88a-462fe3b850f7")
+		)
+		(pin "8"
+			(uuid "e4d3cbd1-1a71-4709-934b-8f7c9545f779")
+		)
+		(pin "10"
+			(uuid "97b3afb7-c238-4557-a270-48f2b14cf71b")
+		)
+		(pin "15"
+			(uuid "172d6774-3c7e-4f16-9b6d-8d7ca25348b3")
+		)
+		(pin "19"
+			(uuid "cab92253-f19d-4e0c-91b1-ebca48dc7645")
+		)
+		(pin "6"
+			(uuid "a3b8c8f5-22eb-4044-9085-9b9eea0428f6")
+		)
+		(pin "1"
+			(uuid "47e3a755-a7d0-4622-b8e5-bda6d9ab8219")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:IR204A")
 		(at 254 78.74 90)
 		(unit 1)
@@ -12599,6 +12269,74 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "359b977c-173e-490b-bf40-7ea95e1c32c3")
+		(property "Reference" "R6"
+			(at 38.1 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a51f1bde-3b36-434f-86f6-b675bcc77763")
+		)
+		(pin "1"
+			(uuid "72c45aba-2352-45a2-bc42-255666eaab41")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13063,42 +12801,33 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS573_2")
-		(lib_id "74xx:74LS573")
-		(at 163.83 165.1 90)
+		(lib_id "Device:R_US")
+		(at 38.1 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "46fadd54-d8fe-4702-ad46-3bef685bdd00")
-		(property "Reference" "U2"
-			(at 184.15 157.988 90)
+		(fields_autoplaced yes)
+		(uuid "443583ce-09a2-4fff-b0b5-d946553ed1c6")
+		(property "Reference" "R3"
+			(at 38.1 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "74HC574"
-			(at 184.15 160.528 90)
+		(property "Value" "2.0k"
+			(at 38.1 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 163.83 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "74xx/74hc573.pdf"
-			(at 163.83 165.1 0)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 75.184 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,8 +12835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Latch 3-state outputs"
-			(at 163.83 165.1 0)
+		(property "Datasheet" "~"
+			(at 38.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,70 +12844,25 @@
 				(hide yes)
 			)
 		)
-		(pin "19"
-			(uuid "0af04080-0829-4bec-8402-d513ea74b4a1")
-		)
-		(pin "15"
-			(uuid "0fd95f24-b1c1-49dd-9cc7-652b0d51e546")
-		)
-		(pin "20"
-			(uuid "7ce87a39-d24d-438f-921f-9b4995486811")
-		)
-		(pin "9"
-			(uuid "8a046f19-3cba-4be4-9c2c-661d5e48d555")
-		)
-		(pin "8"
-			(uuid "9b3fa75e-4d36-4022-a662-64ebaf432c94")
-		)
-		(pin "16"
-			(uuid "5bee96dc-82a6-4c05-a035-2db6fa2f4529")
-		)
-		(pin "17"
-			(uuid "90769366-13ee-4542-b40e-13ec197c2c02")
-		)
-		(pin "3"
-			(uuid "c405946f-1ab6-4222-be14-160ab1df4e4f")
-		)
-		(pin "12"
-			(uuid "03cec3c5-7979-4d1f-bce8-cb4fbab52458")
-		)
-		(pin "13"
-			(uuid "6b081725-bb25-4e92-a3ee-e8481d68321e")
-		)
-		(pin "11"
-			(uuid "bd003c9c-7362-489b-9013-f1f47d9d5f8a")
-		)
-		(pin "6"
-			(uuid "a6e163f2-bb8d-4288-98ed-9f96929062cb")
-		)
-		(pin "1"
-			(uuid "29f61fab-712c-49bd-9273-6b9f274fa791")
-		)
-		(pin "10"
-			(uuid "7f611590-4c8f-4d9b-aaf3-8017b31e5e25")
-		)
-		(pin "14"
-			(uuid "ebad4b4c-22ce-4cff-9a71-e7c394f1922a")
-		)
-		(pin "7"
-			(uuid "b9373033-fae8-4535-9d92-b5e0f55f1ddd")
-		)
-		(pin "4"
-			(uuid "4ff1a062-2773-4e7a-b307-e7f890f0a263")
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "abc438bb-26e4-41a5-affa-10e68e0bc2a4")
+			(uuid "7080006c-7dcf-4ff8-acd9-0ad849988810")
 		)
-		(pin "18"
-			(uuid "93a78fb1-2085-47a4-a7df-3916bfd463c2")
-		)
-		(pin "5"
-			(uuid "5f1aefea-8d37-4c69-8bee-fe053e92d345")
+		(pin "1"
+			(uuid "4a516eab-923c-430f-8b7b-2b0b8f958eee")
 		)
 		(instances
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "U2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -13395,74 +13079,6 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48fecb4b-9fd8-4f71-890a-c032afe7bcc9")
-		(property "Reference" "R3"
-			(at 38.1 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 75.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f6c3ed3-4d92-4298-92bb-8b4d2273a97f")
-		)
-		(pin "2"
-			(uuid "5a502ac8-3e58-485c-a1d5-ca5f77178795")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14621,74 +14237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67215cc0-7937-4f8a-8e8a-5e2bec058a4f")
-		(property "Reference" "R1"
-			(at 38.1 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5879c668-a848-4cc6-9fb4-1ba4d935fb08")
-		)
-		(pin "2"
-			(uuid "dbf06a18-6721-4482-9c6e-a3b69fc8657a")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 228.6 78.74 90)
 		(unit 1)
@@ -15285,74 +14833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7290271c-13d6-4c38-b044-bc3c5a43b854")
-		(property "Reference" "R2"
-			(at 38.1 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbf51d6a-4a31-4c57-b922-85274d4f2d98")
-		)
-		(pin "2"
-			(uuid "1a73e375-4aaf-4b28-8188-971617555ff3")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 304.8 104.14 90)
 		(unit 1)
@@ -15641,74 +15121,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78edc888-cd77-4b46-9c7c-b4c437e6ee10")
-		(property "Reference" "R6"
-			(at 38.1 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4c2f6b7-6da1-4658-a4c8-d9d8826da0e5")
-		)
-		(pin "2"
-			(uuid "583bcc7d-5af9-4f8a-95ec-91de2579d0ec")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 279.4 104.14 90)
 		(unit 1)
@@ -15925,6 +15337,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80615ee1-d8ef-4aae-9b14-d76bfb70ad08")
+		(property "Reference" "R1"
+			(at 38.1 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72cb1f00-39ca-401d-b34a-65615c1623de")
+		)
+		(pin "1"
+			(uuid "857649ac-dba5-4a22-8e61-97b08d8b0ece")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:IR204A")
 		(at 241.3 53.34 90)
 		(unit 1)
@@ -16063,6 +15543,74 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b63cae-4518-4a8e-b0b4-11ac64edd4cb")
+		(property "Reference" "R7"
+			(at 38.1 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 125.984 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7fdb705e-72e5-41af-970a-f64db38d06ee")
+		)
+		(pin "1"
+			(uuid "5cd04d97-18e7-4a0c-b7a0-607eb2a9311a")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16357,196 +15905,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS573_2")
-		(lib_id "74xx:74LS573")
-		(at 316.23 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a01165a-abe7-48b6-8f0a-599135f54118")
-		(property "Reference" "U4"
-			(at 336.55 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC574"
-			(at 336.55 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "74xx/74hc573.pdf"
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-bit Latch 3-state outputs"
-			(at 316.23 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "411b98ee-9231-4ae5-8e44-438000089b96")
-		)
-		(pin "15"
-			(uuid "ac302bbf-858c-4855-ae16-4be2634c1457")
-		)
-		(pin "20"
-			(uuid "c508f709-cdf5-4314-985d-4582e81c70f2")
-		)
-		(pin "9"
-			(uuid "7be27087-b43d-439b-9f47-ef87e208e64d")
-		)
-		(pin "8"
-			(uuid "8b83cbd1-615f-48c7-97f4-7d3060f94196")
-		)
-		(pin "16"
-			(uuid "7500b2eb-1814-4563-a43f-62d25d707118")
-		)
-		(pin "17"
-			(uuid "54e0e648-e0df-4c4a-9d4f-603798ce0068")
-		)
-		(pin "3"
-			(uuid "dbb5dd06-0a47-44de-b041-0e5c4e36e57f")
-		)
-		(pin "12"
-			(uuid "b8b8ea3d-d000-4a10-a840-5535b48db0f2")
-		)
-		(pin "13"
-			(uuid "f37d4173-a11e-4938-be46-26ffc2a20b97")
-		)
-		(pin "11"
-			(uuid "986547be-ae3a-48ad-acb9-7423a1bb08ac")
-		)
-		(pin "6"
-			(uuid "0cce08ba-4ab0-446d-bbb2-f99e6411da5c")
-		)
-		(pin "1"
-			(uuid "c65afd82-76f9-43d5-a6c3-22b52d9a0616")
-		)
-		(pin "10"
-			(uuid "3946b829-58ec-4dcb-a073-d1a1538452a6")
-		)
-		(pin "14"
-			(uuid "e6c5cc85-5a9b-4f09-a0ff-70551996be6e")
-		)
-		(pin "7"
-			(uuid "271e5260-b72b-4332-aa9f-a189828273b5")
-		)
-		(pin "4"
-			(uuid "fced1168-7917-4184-aa8d-a8ccd20919c9")
-		)
-		(pin "2"
-			(uuid "e3c3ed50-8238-4367-95e6-7b2acf4a8851")
-		)
-		(pin "18"
-			(uuid "318ca616-84ba-4d4c-bc75-fa1318d08910")
-		)
-		(pin "5"
-			(uuid "efccd3b4-cfa8-4303-b181-e7ce8361547f")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ac76d19-a21c-4305-8e2f-e0dc280f5a64")
-		(property "Reference" "R4"
-			(at 38.1 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf6248f-b5d3-4998-a62b-071a491478d4")
-		)
-		(pin "2"
-			(uuid "b34ec321-d72f-4681-a573-c49cb167609a")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 50.8 78.74 90)
 		(unit 1)
@@ -16613,128 +15971,6 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "74LS573_2")
-		(lib_id "74xx:74LS573")
-		(at 240.03 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90353fef-69c3-47c5-b36a-4c6e6fe58464")
-		(property "Reference" "U3"
-			(at 260.35 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC574"
-			(at 260.35 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "74xx/74hc573.pdf"
-			(at 240.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-bit Latch 3-state outputs"
-			(at 240.03 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "8853c797-0103-4278-9cc0-af661945b076")
-		)
-		(pin "15"
-			(uuid "297fbb4b-7efc-401c-8146-de434445e472")
-		)
-		(pin "20"
-			(uuid "d582d7dc-65b0-4c99-89a4-93af45883de4")
-		)
-		(pin "9"
-			(uuid "514fdfc1-8b1c-4b89-bddd-87e2e37b31ef")
-		)
-		(pin "8"
-			(uuid "a48b25e5-f0f2-4fe3-bcad-4c438037dc46")
-		)
-		(pin "16"
-			(uuid "3564cae0-37bd-4719-ac76-42c1c80cf567")
-		)
-		(pin "17"
-			(uuid "c4f939df-7aa9-4f10-9589-8b3f506e06ac")
-		)
-		(pin "3"
-			(uuid "b601ee95-0e0d-4ff3-bcd6-5938a1c0148d")
-		)
-		(pin "12"
-			(uuid "2b4f3ecf-8213-4e7a-a978-dffa92403b6e")
-		)
-		(pin "13"
-			(uuid "74e1ce88-55e6-4915-86f2-64a1032e18a4")
-		)
-		(pin "11"
-			(uuid "75c96ce1-5363-4abc-b084-c101b5e964b2")
-		)
-		(pin "6"
-			(uuid "c8f4868c-7f4a-4ee3-86d4-b221ad96350f")
-		)
-		(pin "1"
-			(uuid "4f63ee07-4a23-4862-a0fc-212dbc8e468a")
-		)
-		(pin "10"
-			(uuid "f8678c8d-de9a-47c6-8829-f6eead249f00")
-		)
-		(pin "14"
-			(uuid "376b3b1d-579c-4ba2-a192-0e47d8bc5524")
-		)
-		(pin "7"
-			(uuid "cebd434f-d49c-4761-890c-ac68800769bb")
-		)
-		(pin "4"
-			(uuid "1105c362-43ff-4b4b-aef5-d5df6f49b203")
-		)
-		(pin "2"
-			(uuid "416564f6-e575-43cf-a13f-e5b25feb6643")
-		)
-		(pin "18"
-			(uuid "24ed7c95-b059-4bb9-9ddd-bc1eba7d6cf8")
-		)
-		(pin "5"
-			(uuid "8fa08e70-2d39-4a39-9931-29293bd168c8")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17409,6 +16645,127 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS573")
+		(at 316.23 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a32624c-113b-49d7-b49b-ea1e740b60d9")
+		(property "Reference" "U4"
+			(at 336.296 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS573"
+			(at 336.296 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "74xx/74hc573.pdf"
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit Latch 3-state outputs"
+			(at 316.23 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "21cc8ec3-4cb6-4179-a793-8193d5c2c6e8")
+		)
+		(pin "17"
+			(uuid "4d23478d-1bac-425e-8d12-abc13423109a")
+		)
+		(pin "11"
+			(uuid "ea482b7a-dbaf-4ae8-a619-a093ca7962a2")
+		)
+		(pin "3"
+			(uuid "681e846f-d563-4ac2-9b5d-139054bec52f")
+		)
+		(pin "7"
+			(uuid "b855623b-5c1d-4e66-aafe-cc57800600c5")
+		)
+		(pin "14"
+			(uuid "fbf0cf39-58f4-44b3-acf6-500f31d3bfe5")
+		)
+		(pin "5"
+			(uuid "0bf4eaac-028b-4a5a-b35d-a71ccdef4e9b")
+		)
+		(pin "18"
+			(uuid "d164de5f-b280-4426-b48b-f39111aabf1b")
+		)
+		(pin "16"
+			(uuid "dff6a5b7-4bbc-4fa7-a2d1-fc6711ee96cf")
+		)
+		(pin "20"
+			(uuid "e67c704e-9006-443c-9a3b-06fc96d34280")
+		)
+		(pin "2"
+			(uuid "3b65b44b-a9d4-42e6-bece-3f08fe91aa68")
+		)
+		(pin "12"
+			(uuid "8521fe03-9aa9-4c51-a267-4276cd1f74ce")
+		)
+		(pin "9"
+			(uuid "fa0c992e-3892-470e-8d3a-ebb3d5e6ac88")
+		)
+		(pin "13"
+			(uuid "273dcf46-f557-4230-913b-68366bbd066f")
+		)
+		(pin "8"
+			(uuid "9f1e7c37-2e26-46dc-9f39-9449d36fb49d")
+		)
+		(pin "10"
+			(uuid "0ce1ae91-9032-46ee-ae35-16db150c96de")
+		)
+		(pin "15"
+			(uuid "25b58700-dd0a-43cc-a058-bc82b6d7aac2")
+		)
+		(pin "19"
+			(uuid "a26a4d65-2140-4382-af2d-003874c70f4d")
+		)
+		(pin "6"
+			(uuid "9c92ff56-7fae-4582-a6fc-abc83f7cc438")
+		)
+		(pin "1"
+			(uuid "a7528356-c7eb-4486-9c01-45e0a3026189")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -19707,6 +19064,127 @@
 		)
 	)
 	(symbol
+		(lib_id "74xx:74LS573")
+		(at 240.03 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3b43ee5-bd74-4c54-ad86-b8c2604d4d83")
+		(property "Reference" "U3"
+			(at 260.096 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS573"
+			(at 260.096 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "74xx/74hc573.pdf"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit Latch 3-state outputs"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "15bbee0e-598c-4272-8ef5-57c8fc18bfa3")
+		)
+		(pin "17"
+			(uuid "51722407-1b79-44f4-be92-696de4e65b65")
+		)
+		(pin "11"
+			(uuid "c6c7bc5f-acb6-467f-94a3-3e9fc32f8387")
+		)
+		(pin "3"
+			(uuid "1ea54662-9439-4574-b195-de5c1d2ffa19")
+		)
+		(pin "7"
+			(uuid "0c84d353-cf4c-42f7-a48c-69735d45e1c6")
+		)
+		(pin "14"
+			(uuid "49470544-cfa2-43b2-83af-6d55482a33d2")
+		)
+		(pin "5"
+			(uuid "34c02fd7-0b15-4d87-ad2c-5a2d8ad2858b")
+		)
+		(pin "18"
+			(uuid "8357c4c1-b9b8-4c99-bf10-ec9ad0cf8ee0")
+		)
+		(pin "16"
+			(uuid "7280a6e8-a30b-4b08-b826-f8ccc04c1935")
+		)
+		(pin "20"
+			(uuid "b8943e4a-2b7a-4f74-bb59-3b218978125b")
+		)
+		(pin "2"
+			(uuid "7d068967-1382-43ca-ae6e-53fc1e5b99cc")
+		)
+		(pin "12"
+			(uuid "8623c205-8ac6-402e-ac18-a48bcf2788ac")
+		)
+		(pin "9"
+			(uuid "caaf4910-8126-49c1-a7c1-2f2bf4f80d36")
+		)
+		(pin "13"
+			(uuid "d087bd0d-3793-4eb2-b13b-11697865a54e")
+		)
+		(pin "8"
+			(uuid "885d290c-844e-4e74-914b-e2b67a567a13")
+		)
+		(pin "10"
+			(uuid "b234a8d0-ea92-4280-af7e-4379f46dc50b")
+		)
+		(pin "15"
+			(uuid "496da6dd-f3d8-471b-9e70-ef94c60d88b4")
+		)
+		(pin "19"
+			(uuid "0e61acaa-3aff-4633-bea7-30bad7924563")
+		)
+		(pin "6"
+			(uuid "d45f75d3-ba36-4495-b72e-b12d24367758")
+		)
+		(pin "1"
+			(uuid "1996a5fa-2283-4f36-9aa1-1ab8b4bf6c81")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:IR204A")
 		(at 241.3 129.54 90)
 		(unit 1)
@@ -20499,6 +19977,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d8b567-92f4-474a-8624-8fdb3aa11e17")
+		(property "Reference" "R4"
+			(at 38.1 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de42f248-f6cb-49f6-a092-3deb70e725ab")
+		)
+		(pin "1"
+			(uuid "392400bf-f71c-4715-bb49-20acd19f8d75")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 38.1 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d518b36e-54e2-4d45-8246-75ba4da6f755")
+		(property "Reference" "R2"
+			(at 38.1 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.0k"
+			(at 38.1 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+			(at 38.354 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 38.1 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78ef5700-457b-4020-a604-9d881d23cff9")
+		)
+		(pin "1"
+			(uuid "256e1515-c9e4-4fbb-b0f8-21cd87c3fd47")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:IR204A")
 		(at 165.1 104.14 90)
 		(unit 1)
@@ -21219,128 +20833,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS573_1")
-		(lib_id "74xx:74LS573")
-		(at 87.63 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0465c84-21f8-42a5-98ef-adc97fbb4cfe")
-		(property "Reference" "U1"
-			(at 107.95 157.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC574"
-			(at 107.95 160.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "74xx/74hc573.pdf"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-bit Latch 3-state outputs"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "5ad258c3-add0-49a0-aeb6-a705fdb69615")
-		)
-		(pin "15"
-			(uuid "70e2888d-19ab-4ff2-9a0a-b6df36a48ed6")
-		)
-		(pin "20"
-			(uuid "2f15f0c1-d3da-42f3-8358-b95582f490ca")
-		)
-		(pin "9"
-			(uuid "3b87160f-b4c7-44a8-8b8c-832222a3580d")
-		)
-		(pin "8"
-			(uuid "baa3d29a-e377-45c3-9a74-1aa4610bc266")
-		)
-		(pin "16"
-			(uuid "769ab976-8f46-4a60-8081-8e964d5a1add")
-		)
-		(pin "17"
-			(uuid "a8757ed4-17b3-4767-bf77-4e1e4fb24cf2")
-		)
-		(pin "3"
-			(uuid "3f71214d-8ed7-4d50-916b-3fe2c6eeb81b")
-		)
-		(pin "12"
-			(uuid "3868dcd2-db3f-4981-b265-0f5ac5cb20ea")
-		)
-		(pin "13"
-			(uuid "fc761eab-2970-4220-ad7f-fd5f9b71e3d8")
-		)
-		(pin "11"
-			(uuid "44c5ecf1-d379-4f34-8a43-a38d625e7d9f")
-		)
-		(pin "6"
-			(uuid "89e71921-2532-42a0-be72-89fc7801b41e")
-		)
-		(pin "1"
-			(uuid "45ba11d4-225c-4dde-86db-b26269846651")
-		)
-		(pin "10"
-			(uuid "65d95773-d13f-4041-8bfb-94fb9ba7c68e")
-		)
-		(pin "14"
-			(uuid "2c15c36a-86be-4dae-a907-0f5fe0061ba7")
-		)
-		(pin "7"
-			(uuid "50db0354-ddbd-49c3-906a-820bd4395924")
-		)
-		(pin "4"
-			(uuid "caa69c8c-4156-4a02-aa12-b16c43bc39a9")
-		)
-		(pin "2"
-			(uuid "b111b4d3-a834-4218-a2e5-08bc1802f19d")
-		)
-		(pin "18"
-			(uuid "b4bcc5d4-99e8-4a04-8351-adb061cfc2e7")
-		)
-		(pin "5"
-			(uuid "ca8743ab-dd2b-4efe-a2f0-108ed963c915")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 355.6 99.06 90)
 		(mirror x)
@@ -21727,74 +21219,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 38.1 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e714482d-dc04-465c-a7e5-6bdcf9600bd7")
-		(property "Reference" "R5"
-			(at 38.1 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0k"
-			(at 38.1 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.354 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 38.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "605d9ac1-4942-47f0-a9c4-c88664683931")
-		)
-		(pin "2"
-			(uuid "b3f2d3e6-cbb3-4391-bd2e-44077e95519a")
-		)
-		(instances
-			(project "LED-Design"
-				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:IR204A")
 		(at 76.2 129.54 90)
 		(unit 1)
@@ -22005,6 +21429,127 @@
 			(project "LED-Design"
 				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
 					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS573")
+		(at 163.83 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb810813-022a-401b-b625-7df40a9d7920")
+		(property "Reference" "U2"
+			(at 183.896 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS573"
+			(at 183.896 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "74xx/74hc573.pdf"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-bit Latch 3-state outputs"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "60ccf818-d775-430a-a9e9-3b7a7c1e52f4")
+		)
+		(pin "17"
+			(uuid "eeeb08d2-48f1-4242-9308-aeb82bb18baa")
+		)
+		(pin "11"
+			(uuid "5103ae07-a511-4201-a53a-e5ca0691d6d6")
+		)
+		(pin "3"
+			(uuid "748b3fa4-1358-48d8-938e-1d9e94f9511b")
+		)
+		(pin "7"
+			(uuid "5f214e4b-6a4e-444b-b5bc-8de80e1f0e97")
+		)
+		(pin "14"
+			(uuid "7d5e2dd1-e38a-4fae-a1ae-09d86689060d")
+		)
+		(pin "5"
+			(uuid "7165a163-ecff-42fe-9eb1-93bffe10a723")
+		)
+		(pin "18"
+			(uuid "daf6ad87-5534-4563-a133-0f70b055afc2")
+		)
+		(pin "16"
+			(uuid "82c56bf5-9705-4cf1-8880-1c94c6b793da")
+		)
+		(pin "20"
+			(uuid "2f314129-892f-47ce-ac3a-ed84886e1ec6")
+		)
+		(pin "2"
+			(uuid "8423ec47-eb8f-47ba-a7b2-b4ed9f9b6d79")
+		)
+		(pin "12"
+			(uuid "7bc26182-e78f-4ebf-8621-343908b3b5ec")
+		)
+		(pin "9"
+			(uuid "e30db65f-3ac0-4be7-9e47-d65dfdfbd935")
+		)
+		(pin "13"
+			(uuid "f0edf213-8f34-48ba-8cee-db4abad47398")
+		)
+		(pin "8"
+			(uuid "4503050f-5004-474a-bec2-b6d343f19169")
+		)
+		(pin "10"
+			(uuid "726e79ca-e874-4cc7-9855-e1619c6f95c8")
+		)
+		(pin "15"
+			(uuid "ffa27a79-dd26-42af-bc68-cfa0c7c80fe4")
+		)
+		(pin "19"
+			(uuid "e78c9f90-f95b-4d5b-918d-f88ea859d6ea")
+		)
+		(pin "6"
+			(uuid "567446c5-4a20-4dd6-a144-2b8331a800ea")
+		)
+		(pin "1"
+			(uuid "75f5f67d-ef33-48c1-9d77-061ab0d728df")
+		)
+		(instances
+			(project "LED-Design"
+				(path "/f4f73743-e943-40e7-b3a9-52df178c6ab8"
+					(reference "U2")
 					(unit 1)
 				)
 			)
