@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LED.kicad_pro",
+    "filename": "LED-Design.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -383,7 +383,7 @@
   },
   "sheets": [
     [
-      "d97ebc01-5038-4974-8933-f743d3c47c3f",
+      "f4f73743-e943-40e7-b3a9-52df178c6ab8",
       "Root"
     ]
   ],
