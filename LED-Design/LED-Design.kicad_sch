@@ -10684,7 +10684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 78.74 0)
 			(effects
 				(font
@@ -12440,7 +12440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 91.44 0)
 			(effects
 				(font
@@ -14616,7 +14616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 116.84 0)
 			(effects
 				(font
@@ -16218,7 +16218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 129.54 0)
 			(effects
 				(font
@@ -16797,7 +16797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 66.04 0)
 			(effects
 				(font
@@ -17471,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 53.34 0)
 			(effects
 				(font
@@ -20858,7 +20858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 353.06 104.14 0)
 			(effects
 				(font
